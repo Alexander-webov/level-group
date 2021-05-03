@@ -1,0 +1,328 @@
+@media (max-width: 1561px) {
+    .about-image{
+        width: 55%;
+    }
+    .about-descr{
+        width: 50%;
+    }
+    .welcome{
+        &::before{
+            display: none;
+        }
+         &::after{
+            display: none;
+        }
+    }
+    .services::before,
+    .services::after{
+        display: none;
+    }
+
+}   
+
+@media (max-width: 1281px){
+    .team{
+        padding: 50px;
+    }
+    .team-slider{
+        text-align: center;
+    }
+    .team-prevArrow{
+        left: 0;
+    }
+    .team-nextArrow{
+        right: 0;
+    }
+    .client-slider__top,
+    .client-slider__bottom{
+        display: block;
+        text-align: center;
+    }
+    .client-prevArrow{
+        left: -10px;
+    }
+    .client-nextArrow{
+        right: -10px;
+    }
+        .map iframe{
+        height: 360px;
+    }
+}
+
+@media (max-width: 1181px) {
+    .header-slider__item{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-slider__item-image img{
+      max-width: 259px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .header-navigation__wrapper{
+        justify-content: flex-end;
+    }
+    .header-btn{
+        margin: 0 25px;
+    }
+    .header-content{
+        display: block;
+    }
+    .menu{
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 75px;
+        margin-top: 10px;
+        background: #006caf;
+        text-align: center;
+        z-index: 100;
+        left: 0px;
+        padding: 10px 0;
+        &-list{
+            &__item{
+                display: block;
+                margin-left: 0px;
+                padding: 2px 0;
+                margin-top: 5px;
+                &+&{
+                    margin-left: 0px;
+                }
+                &-link{
+                    font-size: 19px;
+                }
+                }
+            }
+        }
+    #sandwich{
+    top: 30px;
+    left: 30px;
+    display: block;
+    
+    }
+
+/* ==============================
+        about
+==============================*/
+    .about-image{
+        display: none;
+    }
+    .about-descr{
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .welcome-image{
+        display: none;
+    }
+    .welcome-descr{
+        padding: 0 30px;
+        max-width: 100%;
+    }
+    .welcome-wrapper{
+        margin-top: 0;
+    }
+    .services-items{
+        justify-content: center;
+    }
+        .team-prevArrow{
+        left: -10px;
+    }
+    .services-item{
+        margin-bottom: 20px;
+    }
+    .team-nextArrow{
+        right: -10px;
+    }
+    .work-items{
+        justify-content: center;
+    }
+    .work-item{
+        margin: 40px 10px 0;
+    }
+    .price-wrapper{
+        justify-content: center;
+    }
+    .client{
+        padding: 25px;
+    }
+    .footer-feedback__form{
+        display: none;
+    }
+    .footer-feedback__list+.footer-feedback__list{
+        margin-left: 10px;
+    }
+    .welcome{
+        padding-bottom: 60px;
+    }
+}
+
+
+/* ==============================
+        end 1181
+==============================*/
+
+
+@media (max-width: 901px) {
+    .header-phones{
+        display: none;
+    }
+    .header-content{
+        padding: 45px 0 150px;
+    }
+    .title{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .welcome-title{
+        margin-top: 20px;
+    }
+    .about{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .services-title{
+        padding-top: 20px;
+    }
+    .services-items{
+        margin-top: 25px;
+    }
+    .team {
+        padding: 40px;
+    }
+    .team-slider {
+        margin: 50px auto;
+    }
+    .services-item__text{
+        width: 100%;
+    }
+    .slick-slide img.team-slider__item-image{
+        filter: none;
+    }
+    .work{
+        padding: 25px 0 35px;
+    }
+    .client-slider__top{
+        margin: 40px auto 60px;
+    }
+    .price{
+        padding: 30px 0;
+    }
+    .price-descr__title{
+        font-size: 32px;
+    }
+    .price-descr{
+        width: 610px;
+    }
+    .price-descr__text-xs-block,
+    .price-descr__text{
+        width: 100%;
+    }
+    .price-descr__icon{
+        margin: 15px 0;
+    }
+    .price-form{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .reviews-items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .reviews {
+    padding: 25px 0;
+}
+    .map iframe{
+        height: 320px;
+    }
+    
+    .footer-wrapper{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .footer-logo{
+        max-width: 100%;
+    }
+    .footer-feedback__text-items,
+    .footer-adress__list{
+        text-align-last: left;
+    }
+    .footer-adress__list-item{
+        max-width: 100%;
+    }
+
+}
+@media (max-width: 601px) {
+    .header-btn{
+        display: none;
+    }
+    .header-logo{
+        text-align: right;
+    }
+    .header-logo__link img{
+        width: 70%;
+        
+    }
+    .header-slider__title{
+        font-size: 32px;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
+    .header-slider__text{
+        margin-top: 5px;
+    }
+    .header-slider__item-image{
+       display: none;
+    }
+    .header-slider__button{
+        margin: 30px auto 20px;
+    }
+    .cogwheel{
+        display: none;
+    }
+    .about-descr{
+        margin-top: 40px;
+    }
+    .about-descr__text,
+    .about-descr__list{
+        margin-top: 20px;
+    }
+    .welcome-descr{
+        padding: 0 ;
+    }
+    .services-item__icon{
+        max-width: 120px;
+    }
+    .services-item__text{
+        padding: 25px 10px 42px 15px;
+    }
+    .services{
+        padding: 0;
+    }
+    .map iframe{
+        height: 220px;
+    }
+    .services-item{
+        max-width: 480px;
+    }
+    .team-btn-arrow{
+        display: none;
+    }
+}
+@media (max-width: 404px) {
+    .services-item__icon{
+        display: none;
+    }
+    .team{
+        padding: 40px 0;
+    }
+    .client-slider__item{
+        max-width: 220px;
+    }
+
+}
